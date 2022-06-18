@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_1;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_VISUAL_SCRIPTING;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_1;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_VISUAL_SCRIPTING;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -573,19 +573,100 @@
      <Compile Include="Assets\GUI PRO Kit - Fantasy RPG\Scripts\PanelFantasyRPG.cs" />
      <Compile Include="Assets\Loot Beams\Scripts\CameraOrbit.cs" />
      <Compile Include="Assets\Loot Beams\Scripts\BeamSelector.cs" />
+     <Compile Include="Assets\SineVFX\TopDownEffects\Resources\Scripts\PrefabSpawner.cs" />
+     <Compile Include="Assets\SineVFX\TopDownEffects\Resources\Scripts\SineUIControllerTopDownEffects.cs" />
+     <Compile Include="Assets\SineVFX\TopDownEffects\Resources\Scripts\SineCameraControllerTopDownEffects.cs" />
+     <Compile Include="Assets\SineVFX\TopDownEffects\Resources\Scripts\RampGeneratorTDE.cs" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\StdLib.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Waveform.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVOUpsample.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Distortion.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ExposureHistogram.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Texture3DLerp.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DeferredFog.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\TemporalAntialiasing.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\DissolveParticleAdvanced.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\Crystal.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\DissolveParticleSimple.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Dithering.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Bloom.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Vectorscope.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Sampling.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStdFromTexArray.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Lut3DBaker.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Waveform.compute" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\MaskedDoubleSidedAdvanced.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\PSSL.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\LightMeter.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\ShieldICO.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\AutoExposure.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVORender.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Texture2DLerp.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
      <None Include="Assets\Loot Beams\Shaders\Beams\Beam AlphaBlended.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DiskKernels.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D11.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVODownsample2.compute" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\FakeTrailAndMeshFireParticle.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScalableAO.hlsl" />
      <None Include="Assets\GUI PRO Kit - Fantasy RPG\Extensions\UIParticle\hidden particle.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\Props.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\DissolveParticleGroundPacked.shader" />
      <None Include="Assets\Loot Beams\Shaders\Beams\Beam Additive.shader" />
      <None Include="Assets\Loot Beams\Readme.txt" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Environment\EnvShaders\PrototypeGridCenterMaskTDE.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\DissolveParticleDepth.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVO.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Vectorscope.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D9.hlsl" />
      <None Include="Assets\SineVFX\TopDownEffects\_Documentation\!!!_BetterDocumentationOnline_!!!.txt" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScalableAO.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\ACES.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\FinalPass.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Histogram.shader" />
      <None Include="Assets\SineVFX\TopDownEffects\_Packages\!!!_ReadBeforeImport_!!!.txt" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Histogram.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Switch.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Metal.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Uber.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\xRLib.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStdFromDoubleWide.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\CenterCurve.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Overlays.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\PSP2.hlsl" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Environment\EnvShaders\SkyboxProceduralDesaturatedTDE.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScreenSpaceReflections.shader" />
      <None Include="Assets\!GET_MORE_ASSETS_FOR_FREE\DEV FREEDOM.txt" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DepthOfField.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DiscardAlpha.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\OpenGL.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Lut2DBaker.shader" />
      <None Include="Assets\SineVFX\TopDownEffects\_Documentation\02.MaterialParameters.txt" />
      <None Include="Assets\SineVFX\TopDownEffects\_Documentation\03.Customization.txt" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStd.shader" />
      <None Include="Assets\SineVFX\TopDownEffects\_Documentation\01.QuickStart.txt" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MotionBlur.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVODownsample1.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Fog.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ExposureHistogram.compute" />
      <None Include="Assets\SineVFX\TopDownEffects\_Documentation\04.CustomVertexStreams.txt" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\DissolveParticleMV.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\GrainBaker.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\GaussianDownsample.compute" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\XboxOne.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Copy.shader" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Environment\EnvShaders\PrototypeGridQuadV2TDE.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D12.hlsl" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DepthOfField.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
+     <None Include="Assets\SineVFX\TopDownEffects\Resources\Shaders\DissolveParticleFlipBook.shader" />
      <None Include="Assets\2D Fantasy Art Assets Full Pack\readme.txt" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Vulkan.hlsl" />
      <None Include="Assets\GUI PRO Kit - Fantasy RPG\Extensions\UIParticle\UIAdditive.shader" />
+     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Colors.hlsl" />
      <None Include="Assets\SineVFX\TopDownEffects\_Packages\DemoSceneNewControlFix\NewInputSystemPatchFix.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -1297,6 +1378,14 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{f5101cc9-0e9a-0d55-d05d-6378abf9d4df}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{15fb0df4-f2bf-8c2e-6d4e-0bba2f11df69}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{9e55d407-eae4-deac-0a2b-257ddb42f508}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
