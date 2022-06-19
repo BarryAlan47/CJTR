@@ -118,12 +118,20 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_VISUAL_SCRIPTING
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:ODIN_INSPECTOR
+-define:ODIN_INSPECTOR_3
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Behavior Designer/Runtime/BehaviorDesigner.Runtime.dll"
 -r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
 -r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
 -r:"Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll"
 -r:"C:/Git_Project/CJTR/CJTR/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Git_Project/CJTR/CJTR/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -331,6 +339,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Sirenix.OdinInspector.CompatibilityLayer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Sirenix.OdinInspector.CompatibilityLayer.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"

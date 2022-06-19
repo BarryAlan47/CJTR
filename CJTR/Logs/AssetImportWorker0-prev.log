@@ -1,0 +1,2053 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.1f1c1 (0cb3bd085a01) revision 832445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'zh' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Git_Project/CJTR/CJTR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53972
+Successfully changed project path to: C:/Git_Project/CJTR/CJTR
+C:/Git_Project/CJTR/CJTR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 144.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1c1 (0cb3bd085a01)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Git_Project/CJTR/CJTR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 580 2048SP (ID=0x6fdf)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   30.0.15002.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.222024 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 140.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014944 seconds.
+Android Extension - Scanning For ADB Devices 4875 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git_Project\CJTR\CJTR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Git_Project\CJTR\CJTR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1750ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1521ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1093ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (675ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (113.8 KB). Loaded Objects now: 4510.
+Memory consumption went from 141.1 MB to 141.0 MB.
+Total: 3.376700 ms (FindLiveObjects: 0.438400 ms CreateObjectMapping: 0.111800 ms MarkObjects: 2.716000 ms  DeleteObjects: 0.108200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019278 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git_Project\CJTR\CJTR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Git_Project\CJTR\CJTR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (943ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (727ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (80.6 KB). Loaded Objects now: 4513.
+Memory consumption went from 140.6 MB to 140.6 MB.
+Total: 2.829300 ms (FindLiveObjects: 0.338400 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.312900 ms  DeleteObjects: 0.077300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25937.277510 seconds.
+  path: Assets/SineVFX/TopDownEffects/_Packages/Step_1_CoreResources.unitypackage
+  artifactKey: Guid(06732bbec71606648b0d4891356b63e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/_Packages/Step_1_CoreResources.unitypackage using Guid(06732bbec71606648b0d4891356b63e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0041639a69d9de53997828e1bab5c7') in 0.037189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.038955 seconds.
+  path: Assets/SineVFX/TopDownEffects/_Packages/Step_2_Standard.unitypackage
+  artifactKey: Guid(112d86c2443b21e44bc325c6bb72d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/_Packages/Step_2_Standard.unitypackage using Guid(112d86c2443b21e44bc325c6bb72d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f67164b75b3aef515a22932c16d00f') in 0.007062 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git_Project\CJTR\CJTR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Git_Project\CJTR\CJTR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (327ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4151 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (70.1 MB). Loaded Objects now: 4610.
+Memory consumption went from 224.5 MB to 154.4 MB.
+Total: 5.974600 ms (FindLiveObjects: 0.474700 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.468600 ms  DeleteObjects: 2.919700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2473.247076 seconds.
+  path: Assets/Resource
+  artifactKey: Guid(0e4dbd76051734c49929af52a4c95771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource using Guid(0e4dbd76051734c49929af52a4c95771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5d633b31280a4a9dba78b93f65e7c0') in 0.017664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 202.175372 seconds.
+  path: Assets/Resources/Scenes
+  artifactKey: Guid(8d9e942fb80c1604f8af74aa3b47c046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes using Guid(8d9e942fb80c1604f8af74aa3b47c046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9b75303ef558203507e72a978f3871') in 0.006130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.699323 seconds.
+  path: Assets/Resources/Script
+  artifactKey: Guid(3128293a944d0aa4dae47760ae24ddd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script using Guid(3128293a944d0aa4dae47760ae24ddd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93ae7806bef6162a3d06f392c86ce96') in 0.006121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.957330 seconds.
+  path: Assets/Resources/UI
+  artifactKey: Guid(743244a54b448c3418ff5d56a99b707d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI using Guid(743244a54b448c3418ff5d56a99b707d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34509025e097c77c8c65fa3f8fd1e5') in 0.005932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.436739 seconds.
+  path: Assets/Resources/UI/UIForm
+  artifactKey: Guid(c49307a7d24c14e4cb4ca382a5d1d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm using Guid(c49307a7d24c14e4cb4ca382a5d1d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221e4a2c122894403b9d5b8a5191b175') in 0.006799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.985687 seconds.
+  path: Assets/Resources/UI/UIScript
+  artifactKey: Guid(656f545d36da7bf47a33dbf9e89f780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIScript using Guid(656f545d36da7bf47a33dbf9e89f780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f53d173da04b824b5ece6e1f4dced24') in 0.006417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.043651 seconds.
+  path: Assets/Resources/Prefabs
+  artifactKey: Guid(9315738b8235d514f92df59a4d726cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs using Guid(9315738b8235d514f92df59a4d726cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153a54f6368d3fff22041f99365ee325') in 0.005753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.729796 seconds.
+  path: Assets/Resources/Prefabs/Player
+  artifactKey: Guid(ce8c349083033ca438de2c2355b3ac32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Player using Guid(ce8c349083033ca438de2c2355b3ac32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd506a2e33bd119d6a511530d53536c26') in 0.006209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.325200 seconds.
+  path: Assets/Resources/Prefabs/Enemy
+  artifactKey: Guid(4006915d5db669046b77c89ec7492a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Enemy using Guid(4006915d5db669046b77c89ec7492a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a493ba87f0131234935f0c4b456b8b9e') in 0.004911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.738655 seconds.
+  path: Assets/Resources/Prefabs/Weapon
+  artifactKey: Guid(7e02863438213644992cc67fd7bef198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Weapon using Guid(7e02863438213644992cc67fd7bef198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6843d909695f47a946ce8a4778defc4') in 0.005116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.872229 seconds.
+  path: Assets/Resources/BehaviorTree
+  artifactKey: Guid(c737af0d787583e4eae9b6c2ba459f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BehaviorTree using Guid(c737af0d787583e4eae9b6c2ba459f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7b71eb53ee687d34c6bd57bd0b31c4') in 0.005223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.635375 seconds.
+  path: Assets/Resources/Meterial
+  artifactKey: Guid(9c0e199a726cef142bb2511079b068ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Meterial using Guid(9c0e199a726cef142bb2511079b068ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f779e1370a3612eee107952a8ee200b8') in 0.005436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.181081 seconds.
+  path: Assets/Resources/Texture
+  artifactKey: Guid(7ffd6604e9ae0f8419aabef53e29947d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Texture using Guid(7ffd6604e9ae0f8419aabef53e29947d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae62b0ea1f92e5a563ff4d8c51c8fd9a') in 0.004706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.850797 seconds.
+  path: Assets/Resources/Settings
+  artifactKey: Guid(ea242600eca99b741825ab9eab605cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Settings using Guid(ea242600eca99b741825ab9eab605cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa4bc74ff3c9ddf996893cd43bec288') in 0.005106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1532.938356 seconds.
+  path: Assets/Resources/UI/TempUI
+  artifactKey: Guid(19249a1d0c360a340aeb4544186721bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI using Guid(19249a1d0c360a340aeb4544186721bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20baa7abce3bbd0d8e0c75ff1b7bc25f') in 0.006563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.078371 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene.prefab
+  artifactKey: Guid(6d22ddba36ff84677a64beeb4857020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene.prefab using Guid(6d22ddba36ff84677a64beeb4857020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0a070a9dc580004eefc711b33ad89b') in 0.231605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.320615 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene_Popup_ADRemove.prefab
+  artifactKey: Guid(09501088d016d4453beaeace62fdbffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene_Popup_ADRemove.prefab using Guid(09501088d016d4453beaeace62fdbffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3905b15d2545b9e6729852a4826982f3') in 0.018160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.820758 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene.prefab
+  artifactKey: Guid(6d22ddba36ff84677a64beeb4857020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene.prefab using Guid(6d22ddba36ff84677a64beeb4857020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '0c017e2a8503240200b10b28b0d05420') in 0.084793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.435918 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene.prefab
+  artifactKey: Guid(6d22ddba36ff84677a64beeb4857020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene.prefab using Guid(6d22ddba36ff84677a64beeb4857020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '5c7bdfd770851f0a73ee844ad96f13a9') in 0.084673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.255224 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/Panel_Mission.prefab
+  artifactKey: Guid(c90bf0bb262d04cf1a0d34f84db1c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/Panel_Mission.prefab using Guid(c90bf0bb262d04cf1a0d34f84db1c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'a6e9416ea94ad139a8768becff3a73d0') in 0.051404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.273194 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_ADRemove.prefab
+  artifactKey: Guid(513e055c93a2ed24e880af36b2236dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_ADRemove.prefab using Guid(513e055c93a2ed24e880af36b2236dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'bc3d24d31ab63a54210c8df95eeb9937') in 0.012181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.002456 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene_Popup_Checking.prefab
+  artifactKey: Guid(b01294d6015e341fe816d51ea592fcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene_Popup_Checking.prefab using Guid(b01294d6015e341fe816d51ea592fcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3dbf44c394f62e32ce3deab20518d0c8') in 0.029525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.924426 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_Checking.prefab
+  artifactKey: Guid(f2f6d3f826984214eaac5139582e2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_Checking.prefab using Guid(f2f6d3f826984214eaac5139582e2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '15638d9d255fcc54b60a66bf54325429') in 0.011396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.107054 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene_Popup_EUALPrivacy.prefab
+  artifactKey: Guid(6e6e71c58be9d4240bdc2b8c211c3bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/HomeScene_Popup_EUALPrivacy.prefab using Guid(6e6e71c58be9d4240bdc2b8c211c3bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '840471a3c745fa494f47aaa757fed00f') in 0.018543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.737934 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/TitleScene_TapToStart.prefab
+  artifactKey: Guid(7e407423994f34bb380a89bb276fd714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Prefabs/Prefabs_DemoScene_Panels/TitleScene_TapToStart.prefab using Guid(7e407423994f34bb380a89bb276fd714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '4a4873b0ba420dd3b54d1b64582bb45b') in 0.042393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.534644 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene.prefab
+  artifactKey: Guid(eef0c9df94df2bd4aa30ff97a0500861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene.prefab using Guid(eef0c9df94df2bd4aa30ff97a0500861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '96a8a6c1c9e35e5afaf4ef2e490ce091') in 0.088907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.243325 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_Checking 1.prefab
+  artifactKey: Guid(b7bb5d88a5e67aa42813bc183a8afc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_Checking 1.prefab using Guid(b7bb5d88a5e67aa42813bc183a8afc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '92f936ec88611aa48127a8ec268b9949') in 0.014447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.141229 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_ADRemove 1.prefab
+  artifactKey: Guid(eb9903e2ff834a448910dee645c5f8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_ADRemove 1.prefab using Guid(eb9903e2ff834a448910dee645c5f8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '91f0d1eed02e0a96e55ae6a775fe3f15') in 0.015287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.083872 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Popup_ADRemove.prefab
+  artifactKey: Guid(513e055c93a2ed24e880af36b2236dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Popup_ADRemove.prefab using Guid(513e055c93a2ed24e880af36b2236dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '69163b7720e081deb49580c41b29b48e') in 0.015630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.153675 seconds.
+  path: Assets/Resources/UI/UIForm/Confirm_Popup_Checking.prefab
+  artifactKey: Guid(f2f6d3f826984214eaac5139582e2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/Confirm_Popup_Checking.prefab using Guid(f2f6d3f826984214eaac5139582e2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'd429cbd7a72a903e39442f108776e2db') in 0.014271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.436755 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Popup_Checking.prefab
+  artifactKey: Guid(f2f6d3f826984214eaac5139582e2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Popup_Checking.prefab using Guid(f2f6d3f826984214eaac5139582e2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '5543c72fc8afbd8c7f668ca88b810dfa') in 0.014605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.611437 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Popup_Confirm.prefab
+  artifactKey: Guid(f2f6d3f826984214eaac5139582e2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Popup_Confirm.prefab using Guid(f2f6d3f826984214eaac5139582e2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'e2bdca147fd33caa0270c07579d7873f') in 0.014450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.032315 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_EUALPrivacy.prefab
+  artifactKey: Guid(9d417b00e92d9ae479d73923f21d3a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_EUALPrivacy.prefab using Guid(9d417b00e92d9ae479d73923f21d3a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '42c970c311d7b46e17079593d1228586') in 0.012183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.347677 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_Login.prefab
+  artifactKey: Guid(edcf6fd2b722d534dbab0fef0507a9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_Login.prefab using Guid(edcf6fd2b722d534dbab0fef0507a9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'f3d734d54de1e0f9e6d1c1237c50e3a0') in 0.023398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.498750 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_Message.prefab
+  artifactKey: Guid(6e05fdee69b1b9e459024e4c56636b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_Message.prefab using Guid(6e05fdee69b1b9e459024e4c56636b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'ca8c259f28973f5900bb222da5765d08') in 0.037784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.718251 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_Name.prefab
+  artifactKey: Guid(85b859e90fef4f3489dbb9d0dab49eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_Name.prefab using Guid(85b859e90fef4f3489dbb9d0dab49eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '65089a1769760f1e53e5e17820d21b51') in 0.023201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.087553 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_Offline.prefab
+  artifactKey: Guid(4b9c002115275024d8df8551a32b2ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_Offline.prefab using Guid(4b9c002115275024d8df8551a32b2ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '72fc4bffd77abd5b0e92a2a29fc6b35c') in 0.019127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.091519 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Popup_Offline.prefab
+  artifactKey: Guid(4b9c002115275024d8df8551a32b2ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Popup_Offline.prefab using Guid(4b9c002115275024d8df8551a32b2ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '36cad84ef0962ac62b88ddc6a2f0c8e4') in 0.018278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.353733 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_Signup.prefab
+  artifactKey: Guid(58f4782465a0f5a4ca3e6395702add6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_Signup.prefab using Guid(58f4782465a0f5a4ca3e6395702add6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '04a5a365089f28c28ffc86807f60f551') in 0.018553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.677260 seconds.
+  path: Assets/Resources/UI/TempUI/HomeScene_Popup_Update.prefab
+  artifactKey: Guid(399dbdff25b49f846a4f2ea0876a7294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/HomeScene_Popup_Update.prefab using Guid(399dbdff25b49f846a4f2ea0876a7294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '572036b8878fb9a77625787ba9dfe799') in 0.014636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.000038 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Popup_Update.prefab
+  artifactKey: Guid(399dbdff25b49f846a4f2ea0876a7294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Popup_Update.prefab using Guid(399dbdff25b49f846a4f2ea0876a7294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '5f409a45eb8fb7ad347fe8c811a84a3e') in 0.014927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.457113 seconds.
+  path: Assets/Resources/UI/TempUI/LevelUp.prefab
+  artifactKey: Guid(581c905cdc5b4f24fb2022ddfd1b417a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/LevelUp.prefab using Guid(581c905cdc5b4f24fb2022ddfd1b417a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '005116f44f0259aceb46f942018d6c5b') in 0.077440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.561958 seconds.
+  path: Assets/Resources/UI/TempUI/Loading.prefab
+  artifactKey: Guid(8cef1e14b0d92f74e99a7201846c8edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Loading.prefab using Guid(8cef1e14b0d92f74e99a7201846c8edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '91f4ee1ae1562e0ffbef4e0d2658f9a1') in 0.035662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.560140 seconds.
+  path: Assets/Resources/UI/UIForm/UIFormLevelUp.prefab
+  artifactKey: Guid(581c905cdc5b4f24fb2022ddfd1b417a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIFormLevelUp.prefab using Guid(581c905cdc5b4f24fb2022ddfd1b417a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'b71a94c65f26f78e4029ce32dfbe9416') in 0.050075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.115660 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_LevelUp.prefab
+  artifactKey: Guid(581c905cdc5b4f24fb2022ddfd1b417a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_LevelUp.prefab using Guid(581c905cdc5b4f24fb2022ddfd1b417a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '08b7e76553dd2bb4442a2179a34a3a02') in 0.051805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.545936 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_BattlePass.prefab
+  artifactKey: Guid(cf0827ae9a1512142827561ab8c4e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_BattlePass.prefab using Guid(cf0827ae9a1512142827561ab8c4e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '8dddc94e3362a6f1c08a8f4c17bdedc8') in 0.036758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.345196 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_CharacterSelect.prefab
+  artifactKey: Guid(898fe3a0a7aa6f040a4be9da8f2f5efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_CharacterSelect.prefab using Guid(898fe3a0a7aa6f040a4be9da8f2f5efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'a5de69c434a5fb1a3b97ed074d028e48') in 0.022793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.609040 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Equipment.prefab
+  artifactKey: Guid(c8b59804c7c727a4888d649998a1b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Equipment.prefab using Guid(c8b59804c7c727a4888d649998a1b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '6f1043ec8e13114bb55217de3a3bd9a2') in 0.051065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.676615 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Equipment.prefab
+  artifactKey: Guid(c8b59804c7c727a4888d649998a1b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Equipment.prefab using Guid(c8b59804c7c727a4888d649998a1b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '46aaf83491380540c4c6e6b9c304eada') in 0.045323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.742966 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Equipment.prefab
+  artifactKey: Guid(c8b59804c7c727a4888d649998a1b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Equipment.prefab using Guid(c8b59804c7c727a4888d649998a1b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3bab2ecb7b9a082a64ebd322250eb370') in 0.049885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.961292 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_GuideBook.prefab
+  artifactKey: Guid(6a0bf684c37f705469e1df5f50a96018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_GuideBook.prefab using Guid(6a0bf684c37f705469e1df5f50a96018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '7708bb7a297ee8eafbc15a9fdf3f284c') in 0.045101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.219710 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_CharacterSelect.prefab
+  artifactKey: Guid(898fe3a0a7aa6f040a4be9da8f2f5efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_CharacterSelect.prefab using Guid(898fe3a0a7aa6f040a4be9da8f2f5efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '36cdc8bff4bc9cf40c8a1eae7aabcb84') in 0.019709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.143014 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Guild.prefab
+  artifactKey: Guid(7fb9fd214edc5cd4c9201320fc4aac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Guild.prefab using Guid(7fb9fd214edc5cd4c9201320fc4aac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '45035d08220a102a4ed603f54bb105dc') in 0.027728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.071009 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Heroes.prefab
+  artifactKey: Guid(cbafc7eaca0811a49bed394dc720b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Heroes.prefab using Guid(cbafc7eaca0811a49bed394dc720b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '1e44e5b4cf3669a17e9c9ca5d05c661a') in 0.032704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.707257 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Guild.prefab
+  artifactKey: Guid(7fb9fd214edc5cd4c9201320fc4aac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Guild.prefab using Guid(7fb9fd214edc5cd4c9201320fc4aac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '65657199fb472bcb5081196fbab90479') in 0.024448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.356658 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Heroes.prefab
+  artifactKey: Guid(cbafc7eaca0811a49bed394dc720b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Heroes.prefab using Guid(cbafc7eaca0811a49bed394dc720b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '309d96ec2ddc02d14a01edb725e55d2d') in 0.029485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.766208 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Heroes.prefab
+  artifactKey: Guid(cbafc7eaca0811a49bed394dc720b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Heroes.prefab using Guid(cbafc7eaca0811a49bed394dc720b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'fad4dc8afdc5fae2ef06124e2a922fce') in 0.028996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.732476 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_PlayerInfo.prefab
+  artifactKey: Guid(cbafc7eaca0811a49bed394dc720b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_PlayerInfo.prefab using Guid(cbafc7eaca0811a49bed394dc720b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '45c80c129e4d2d867edb2db21e170989') in 0.030125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.408947 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Mission.prefab
+  artifactKey: Guid(cd2a992b380e51649b093382a0bac7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Mission.prefab using Guid(cd2a992b380e51649b093382a0bac7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '1bb659174fcaca8b6b0533e07b436f02') in 0.041730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.868949 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Mission.prefab
+  artifactKey: Guid(cd2a992b380e51649b093382a0bac7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Mission.prefab using Guid(cd2a992b380e51649b093382a0bac7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '63d7ff015c6fdc1a6f87f46e1956d971') in 0.043360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.421056 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Ranking.prefab
+  artifactKey: Guid(659bab58c6b532a4baf5628073bf96bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Ranking.prefab using Guid(659bab58c6b532a4baf5628073bf96bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '35498e759fb425fd4cd97c090003e38d') in 0.025905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.448151 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_RewardDaily.prefab
+  artifactKey: Guid(bee7cd3869c746e48ae2c8f6555fa648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_RewardDaily.prefab using Guid(bee7cd3869c746e48ae2c8f6555fa648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'f1b419b25d15c89a79f79081ad01aaf4') in 0.027067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.644141 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Rate.prefab
+  artifactKey: Guid(568e243f7d1f2204e8cb442978a72b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Rate.prefab using Guid(568e243f7d1f2204e8cb442978a72b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'be273083aa4fa0370b64871d3170f642') in 0.016871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.462364 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_RewardWeek.prefab
+  artifactKey: Guid(310d2144c96498b4ca19d7a67a204931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_RewardWeek.prefab using Guid(310d2144c96498b4ca19d7a67a204931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '64ba17af08f665e04af9a5119b20cf7f') in 0.024108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.894754 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_RewardWeek.prefab
+  artifactKey: Guid(310d2144c96498b4ca19d7a67a204931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_RewardWeek.prefab using Guid(310d2144c96498b4ca19d7a67a204931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'aedd60aed22d0d6aa25da2322ed96c7d') in 0.020206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.764121 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Roulette.prefab
+  artifactKey: Guid(d738f2085c6de1d43b110a2bf5f43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Roulette.prefab using Guid(d738f2085c6de1d43b110a2bf5f43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '5e7ce21fb5ce1b59e4fd5b8ef4cf82df') in 0.038469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.923497 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Settings.prefab
+  artifactKey: Guid(c55b7740bdd5ef048880aaf7895bfe31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Settings.prefab using Guid(c55b7740bdd5ef048880aaf7895bfe31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '6422b689c4e642f33b797b5156c4bcdd') in 0.024338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.222385 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Roulette.prefab
+  artifactKey: Guid(d738f2085c6de1d43b110a2bf5f43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Roulette.prefab using Guid(d738f2085c6de1d43b110a2bf5f43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '647b8a6ea716548ed9bb2fd639bef94a') in 0.036608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.859869 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Settings.prefab
+  artifactKey: Guid(c55b7740bdd5ef048880aaf7895bfe31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Settings.prefab using Guid(c55b7740bdd5ef048880aaf7895bfe31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '8f0412b1f11f58f6ed79e7b83f4fdbd0') in 0.025606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.183126 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Shop_Chest.prefab
+  artifactKey: Guid(6fa9f31506c2e2744921ebb856fdfaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Shop_Chest.prefab using Guid(6fa9f31506c2e2744921ebb856fdfaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2055c2a7fa0a7dc41ac0be6541e785b7') in 0.068824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.852078 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Shop_Gem.prefab
+  artifactKey: Guid(81854d83ecba2424488af7bce992babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Shop_Gem.prefab using Guid(81854d83ecba2424488af7bce992babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '4110d47ce8a83fa84a2cfd5818325653') in 0.066136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.875063 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Shop_Gold.prefab
+  artifactKey: Guid(1e885a8431b0bc543a81dec56f474764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Shop_Gold.prefab using Guid(1e885a8431b0bc543a81dec56f474764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'd34fba7358856e4ee832fd88d7df2c93') in 0.066730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.044240 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Stage.prefab
+  artifactKey: Guid(a1d789a74b444124ab406ad2490598a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Stage.prefab using Guid(a1d789a74b444124ab406ad2490598a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'c351e924fa3fee2acbc5e0ddf50b6f8b') in 0.028825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.028808 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Shop_Chest.prefab
+  artifactKey: Guid(6fa9f31506c2e2744921ebb856fdfaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Shop_Chest.prefab using Guid(6fa9f31506c2e2744921ebb856fdfaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3e3c28ae189bab8313abf0e3c097a8a5') in 0.061878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.899682 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Shop_Gem.prefab
+  artifactKey: Guid(81854d83ecba2424488af7bce992babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Shop_Gem.prefab using Guid(81854d83ecba2424488af7bce992babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '998095c483b49254041f2be46402ec10') in 0.055944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.254979 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Shop_Gold.prefab
+  artifactKey: Guid(1e885a8431b0bc543a81dec56f474764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Shop_Gold.prefab using Guid(1e885a8431b0bc543a81dec56f474764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'b357519d32282fac8b14d947d638cab7') in 0.053216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.249257 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Shop_Gold.prefab
+  artifactKey: Guid(1e885a8431b0bc543a81dec56f474764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Shop_Gold.prefab using Guid(1e885a8431b0bc543a81dec56f474764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '08d8eeda3590782a2732a370c3086821') in 0.052700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.582150 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Shop_Chest.prefab
+  artifactKey: Guid(6fa9f31506c2e2744921ebb856fdfaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Shop_Chest.prefab using Guid(6fa9f31506c2e2744921ebb856fdfaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '1945265a6a87ae539c68e5df2b415d48') in 0.053006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.060852 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Shop_Gold.prefab
+  artifactKey: Guid(1e885a8431b0bc543a81dec56f474764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Shop_Gold.prefab using Guid(1e885a8431b0bc543a81dec56f474764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2b219dadf4549e85e57dd3ea29012630') in 0.055879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.386309 seconds.
+  path: Assets/Resources/UI/UIForm/Panel_Shop_Gem.prefab
+  artifactKey: Guid(81854d83ecba2424488af7bce992babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/Panel_Shop_Gem.prefab using Guid(81854d83ecba2424488af7bce992babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '5223c869a521bd9f4da05c4be37fb019') in 0.054901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.063497 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Shop_Gem.prefab
+  artifactKey: Guid(81854d83ecba2424488af7bce992babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Shop_Gem.prefab using Guid(81854d83ecba2424488af7bce992babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'db378e4b1f2657ec0660f999eec5714b') in 0.057196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.577088 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Stage.prefab
+  artifactKey: Guid(a1d789a74b444124ab406ad2490598a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Stage.prefab using Guid(a1d789a74b444124ab406ad2490598a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'a2b2231751dada8637465c50fa7ffb7e') in 0.025530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.839721 seconds.
+  path: Assets/Resources/UI/TempUI/Panel_Tutorial.prefab
+  artifactKey: Guid(90afa3a5c70eec045b7ac72dab623b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Panel_Tutorial.prefab using Guid(90afa3a5c70eec045b7ac72dab623b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '17032b3bc81ae49307c0a176413194ba') in 0.018237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.903131 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_BossWarning.prefab
+  artifactKey: Guid(65a21989beaacd74b97f82fd30b64852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_BossWarning.prefab using Guid(65a21989beaacd74b97f82fd30b64852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'cbb446397eef3e48db79dfd0e1e067f0') in 0.018961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.199957 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Continue.prefab
+  artifactKey: Guid(9fe387ce716ce1f47a23bbb11d4060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Continue.prefab using Guid(9fe387ce716ce1f47a23bbb11d4060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '25a9bcc60044a23539c8660fe55a24af') in 0.016128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.717503 seconds.
+  path: Assets/Resources/UI/UIForm/UIForm_Continue.prefab
+  artifactKey: Guid(9fe387ce716ce1f47a23bbb11d4060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/UIForm_Continue.prefab using Guid(9fe387ce716ce1f47a23bbb11d4060a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'c4f29efc80995e8eb857f28b96dca0f1') in 0.017225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.705219 seconds.
+  path: Assets/Resources/UI/UIForm/HomeScene
+  artifactKey: Guid(5bcc3169ebae9a24d8ffe4f26bb1eac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/HomeScene using Guid(5bcc3169ebae9a24d8ffe4f26bb1eac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1109dfae337510ae8cbd7c6b8e7b16fe') in 0.004918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.398163 seconds.
+  path: Assets/Resources/UI/UIForm/HomeSceneUI
+  artifactKey: Guid(5bcc3169ebae9a24d8ffe4f26bb1eac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/HomeSceneUI using Guid(5bcc3169ebae9a24d8ffe4f26bb1eac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e67ce2d1bc6e06486be1fd71b840d08') in 0.005497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.160737 seconds.
+  path: Assets/Resources/UI/UIForm/CombatSceneUI
+  artifactKey: Guid(b066b5d37bd7e3a44a2f6d3c0ccfd54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/CombatSceneUI using Guid(b066b5d37bd7e3a44a2f6d3c0ccfd54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbf4dd7099158b09ce5328542a9c89a') in 0.004867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.299516 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Pause.prefab
+  artifactKey: Guid(b5a528818af15dd48b96726e219ac0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Pause.prefab using Guid(b5a528818af15dd48b96726e219ac0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'a5b2d81ac48c3741e7b3dcaa1b433b13') in 0.015526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.765316 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Monster.prefab
+  artifactKey: Guid(e8cbe3423412a934f84d9ef7b6123767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Monster.prefab using Guid(e8cbe3423412a934f84d9ef7b6123767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'f3b3478f9dea469c7ea22cfc0c997875') in 0.039435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.732692 seconds.
+  path: Assets/Resources/UI/UIForm/CombatSceneUI/UIForm_Pause.prefab
+  artifactKey: Guid(b5a528818af15dd48b96726e219ac0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/CombatSceneUI/UIForm_Pause.prefab using Guid(b5a528818af15dd48b96726e219ac0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'a6993ded954982daebc8bb855a9e602f') in 0.015493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.078294 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Result.prefab
+  artifactKey: Guid(fe0b85785c468544896a7fb31b447d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Result.prefab using Guid(fe0b85785c468544896a7fb31b447d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '42c3f636258872e667e570c4d6806fd7') in 0.056753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.391231 seconds.
+  path: Assets/Resources/UI/UIForm/CombatSceneUI/UIForm_Result.prefab
+  artifactKey: Guid(fe0b85785c468544896a7fb31b447d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/CombatSceneUI/UIForm_Result.prefab using Guid(fe0b85785c468544896a7fb31b447d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '34ae3e829b2e23c773d94a90a0602255') in 0.050544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.720861 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Type_1.prefab
+  artifactKey: Guid(6e60467dc89d8ef47bc85a4dec822f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Type_1.prefab using Guid(6e60467dc89d8ef47bc85a4dec822f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'feeb2c945362fd0127027aa222bfc19c') in 0.026815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.307580 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Type_2_Upgrade.prefab
+  artifactKey: Guid(681ab2aa466a2544fb73bc01ae1085b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Type_2_Upgrade.prefab using Guid(681ab2aa466a2544fb73bc01ae1085b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '5537abb8f56fb637b09c78cb0de9d98d') in 0.042935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.349323 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Type_3.prefab
+  artifactKey: Guid(a0ef96939276d06459331ac0822ca24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Type_3.prefab using Guid(a0ef96939276d06459331ac0822ca24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'ffe00dd6bd8cf1be5a3f27dd6ae0c7a9') in 0.031447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.717099 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Type_2_Upgrade.prefab
+  artifactKey: Guid(681ab2aa466a2544fb73bc01ae1085b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Type_2_Upgrade.prefab using Guid(681ab2aa466a2544fb73bc01ae1085b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'f7c8241812369a7ac5543c427232f248') in 0.039760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.352469 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Type_3.prefab
+  artifactKey: Guid(a0ef96939276d06459331ac0822ca24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Type_3.prefab using Guid(a0ef96939276d06459331ac0822ca24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2b6d76445b6b9243737dbd52777fcd2d') in 0.026382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.750426 seconds.
+  path: Assets/Resources/UI/TempUI/PlayScene_Type_2_Upgrade.prefab
+  artifactKey: Guid(681ab2aa466a2544fb73bc01ae1085b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PlayScene_Type_2_Upgrade.prefab using Guid(681ab2aa466a2544fb73bc01ae1085b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '83d06a393d622f5da0c177f61a610ea5') in 0.042866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.624737 seconds.
+  path: Assets/Resources/UI/UIForm/CombatSceneUI/UIForm_Combat.prefab
+  artifactKey: Guid(681ab2aa466a2544fb73bc01ae1085b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/CombatSceneUI/UIForm_Combat.prefab using Guid(681ab2aa466a2544fb73bc01ae1085b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '23acbfde591e1b59343eb52f0164ac44') in 0.044754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.282942 seconds.
+  path: Assets/Resources/UI/TempUI/Popup_Equipment_ItemDetail1.prefab
+  artifactKey: Guid(0ffc7d221d78b3744acee0484e0d6d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Popup_Equipment_ItemDetail1.prefab using Guid(0ffc7d221d78b3744acee0484e0d6d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '0af56b5da3c8a8f0599582218a8d3e72') in 0.019281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.155303 seconds.
+  path: Assets/Resources/UI/TempUI/Popup_Equipment_ItemDetail2.prefab
+  artifactKey: Guid(0e541caba5f295247880f15d635d6b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Popup_Equipment_ItemDetail2.prefab using Guid(0e541caba5f295247880f15d635d6b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2f9550c73090af4d904f6375135a8382') in 0.018670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.107356 seconds.
+  path: Assets/Resources/UI/TempUI/Popup_Equipment_ItemDetail3.prefab
+  artifactKey: Guid(ba405774778214f40a824957a0b87652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Popup_Equipment_ItemDetail3.prefab using Guid(ba405774778214f40a824957a0b87652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'a7e1ce3d919073b5a816a96ca833d524') in 0.015913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.495850 seconds.
+  path: Assets/Resources/UI/UIForm/HomeSceneUI/UIForm_Equipment_ItemDetail.prefab
+  artifactKey: Guid(0e541caba5f295247880f15d635d6b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/HomeSceneUI/UIForm_Equipment_ItemDetail.prefab using Guid(0e541caba5f295247880f15d635d6b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'fb03281c26097c4f63bec0ba8ad1ebe6') in 0.019412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.045092 seconds.
+  path: Assets/Resources/UI/UIForm/HomeSceneUI/UIForm_ItemDetail.prefab
+  artifactKey: Guid(ba405774778214f40a824957a0b87652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/UIForm/HomeSceneUI/UIForm_ItemDetail.prefab using Guid(ba405774778214f40a824957a0b87652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2204fccc0d63ee18dacd3ffcfae95f86') in 0.017122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.306813 seconds.
+  path: Assets/Resources/UI/TempUI/Popup_Language.prefab
+  artifactKey: Guid(04420f0e8ba2b47449ec9225c1b82725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/Popup_Language.prefab using Guid(04420f0e8ba2b47449ec9225c1b82725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'ff12668784176b88724023f8d3ee53d2') in 0.019601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.755104 seconds.
+  path: Assets/Resources/UI/TempUI/PowerSave.prefab
+  artifactKey: Guid(7fc72ddcc057ab64d996870b33c7a6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/PowerSave.prefab using Guid(7fc72ddcc057ab64d996870b33c7a6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '069ac2cb33ce3390a8c2f9554e744683') in 0.040714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.732815 seconds.
+  path: Assets/Resources/UI/TempUI/TitleScene_Downloading.prefab
+  artifactKey: Guid(058b7a9c1b568e040a10887a0f2bbe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/TitleScene_Downloading.prefab using Guid(058b7a9c1b568e040a10887a0f2bbe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '88febfa738c8f2ec62541980555d32b8') in 0.035092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.161756 seconds.
+  path: Assets/Resources/UI/TempUI/TitleScene_Login.prefab
+  artifactKey: Guid(93596abd72bd90f4f8a7ffa2d59cd264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/TitleScene_Login.prefab using Guid(93596abd72bd90f4f8a7ffa2d59cd264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '29c5d5831203f484bf3029fe416df1f8') in 0.036868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.189226 seconds.
+  path: Assets/Resources/UI/TempUI/TitleScene_NetworkError.prefab
+  artifactKey: Guid(2ea90fc20b8bb4445b85d198392cff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/TitleScene_NetworkError.prefab using Guid(2ea90fc20b8bb4445b85d198392cff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'b4448e0ca978076b4d9bf03196085d42') in 0.014910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.874458 seconds.
+  path: Assets/Resources/UI/TempUI/TitleScene_TapToStart.prefab
+  artifactKey: Guid(22a181956873f044d84520ae116af1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/TempUI/TitleScene_TapToStart.prefab using Guid(22a181956873f044d84520ae116af1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '34bb8b16e68108fe45ddd2f67d103430') in 0.032100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.151454 seconds.
+  path: Assets/Resources/Texture/CombatBG
+  artifactKey: Guid(8235fe534310d9b40af8918407593f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Texture/CombatBG using Guid(8235fe534310d9b40af8918407593f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a63f06e094cdfae46f582773743c2a') in 0.005263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.673172 seconds.
+  path: Assets/Resources/Texture/CombatBG/BG1.jpg
+  artifactKey: Guid(9f1d1882e91e8504e8c6f304aff949e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Texture/CombatBG/BG1.jpg using Guid(9f1d1882e91e8504e8c6f304aff949e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed49648383dbf3c1d251e97c5090770') in 0.028835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.430253 seconds.
+  path: Assets/Resources/Texture/CombatBG/BG1.jpg
+  artifactKey: Guid(9f1d1882e91e8504e8c6f304aff949e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Texture/CombatBG/BG1.jpg using Guid(9f1d1882e91e8504e8c6f304aff949e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44656557b882697dad19fd6fe54cb586') in 0.045387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.914557 seconds.
+  path: Assets/Resources/Texture/CombatBG/CombatBG.jpg
+  artifactKey: Guid(9f1d1882e91e8504e8c6f304aff949e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Texture/CombatBG/CombatBG.jpg using Guid(9f1d1882e91e8504e8c6f304aff949e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e44f61b8c3538344c5bbbec4423bf0b') in 0.035077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.817290 seconds.
+  path: Assets/Resources/Prefabs/CombatThing
+  artifactKey: Guid(29f919b34695da748848f2e4610656a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/CombatThing using Guid(29f919b34695da748848f2e4610656a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4c9f147ee1c30fa8862146685cca1f') in 0.005156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.081849 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_1.png
+  artifactKey: Guid(05a1720f1b3ed4d05b2205e69223ebc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_1.png using Guid(05a1720f1b3ed4d05b2205e69223ebc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed43728262b0f0f4f027c200a141ab4') in 0.101713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_77.png
+  artifactKey: Guid(2b5a082e1e82049e2b9b57c45f1bbfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_77.png using Guid(2b5a082e1e82049e2b9b57c45f1bbfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdc9bc7076d884cfeb10d8979ab3f21') in 0.077907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_75.png
+  artifactKey: Guid(e024fa9c03ac04183a57a1c899e701e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_75.png using Guid(e024fa9c03ac04183a57a1c899e701e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b757f17c1ce0f1ed551cc510324f52') in 0.107390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_43.png
+  artifactKey: Guid(2c06b397393064149b40d2deccde9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_43.png using Guid(2c06b397393064149b40d2deccde9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d20306f5cddf446b65e7a6e5cdf961') in 0.084640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_30.png
+  artifactKey: Guid(cf03bd4d0d09c453cb06ea2c0039e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_30.png using Guid(cf03bd4d0d09c453cb06ea2c0039e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c3c0f93bbb1e9bccdae054a10c153d') in 0.085718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_20.png
+  artifactKey: Guid(9e9e49af40fc7422185d8b2d54b90f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_20.png using Guid(9e9e49af40fc7422185d8b2d54b90f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b0e2ec783eac1f5cdb6cd62b934f51') in 0.104638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_13.png
+  artifactKey: Guid(22bd8ea2ab80e4f88a51e262fd2c1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_13.png using Guid(22bd8ea2ab80e4f88a51e262fd2c1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13acb883e83d641b9aa2868c74c1358e') in 0.110778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_22.png
+  artifactKey: Guid(f2738869a717b42ed93f0ab9bea12bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_22.png using Guid(f2738869a717b42ed93f0ab9bea12bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c1096210cd4e7c33c0ddccdebd029d') in 0.082255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_63.png
+  artifactKey: Guid(8a3079942f11c46f0a03adf68ea544cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_63.png using Guid(8a3079942f11c46f0a03adf68ea544cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af89e250d05e0305d2d4ff7729f3e95a') in 0.078063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_54.png
+  artifactKey: Guid(d76bde7d1ab5441989958783fc263cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_54.png using Guid(d76bde7d1ab5441989958783fc263cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19248cbc8185a0a79f4d1031ef8e0bcc') in 0.089235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_41.png
+  artifactKey: Guid(0536725c172054f8f81f59ec74ca4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_41.png using Guid(0536725c172054f8f81f59ec74ca4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019d8f8f38ec9c11bc4176d85ea2a451') in 0.081862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_8.png
+  artifactKey: Guid(2edb457251f974ea98d3aefa874c2115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_8.png using Guid(2edb457251f974ea98d3aefa874c2115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91109dcff34696b88e5b89454c8d8adb') in 0.094559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_51.png
+  artifactKey: Guid(11a1fd304c0c94bbf93d71f04221ca3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_51.png using Guid(11a1fd304c0c94bbf93d71f04221ca3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d60ec99075b8dc184da10a9f2a26a2') in 0.088905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_65.png
+  artifactKey: Guid(f9b993f40e3df4edf98b69f5565e632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_65.png using Guid(f9b993f40e3df4edf98b69f5565e632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33a8c5de588c334def45832dcb3dd85') in 0.088040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_10.png
+  artifactKey: Guid(352e714aef6b645f3905552178dc4478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_10.png using Guid(352e714aef6b645f3905552178dc4478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf784c394e143a87e751e6fff0ec50d') in 0.086470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_17.png
+  artifactKey: Guid(7c900a7d73dab4218a52b16c8afd7325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_17.png using Guid(7c900a7d73dab4218a52b16c8afd7325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aeac7f4813f43e331b16d4a90b2bda6') in 0.090629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_56.png
+  artifactKey: Guid(a33611ce376da4f47bad1d9406faf2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_56.png using Guid(a33611ce376da4f47bad1d9406faf2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4c1b11ae3640bf1723c08a56fc6014') in 0.088669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_60.png
+  artifactKey: Guid(dc43d3b0b788c4769bd6147953f49aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_60.png using Guid(dc43d3b0b788c4769bd6147953f49aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cca01a891e42d9981fc83d87210303') in 0.097301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_45.png
+  artifactKey: Guid(f002bdf27d71f4cc09c272520c9c8037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_45.png using Guid(f002bdf27d71f4cc09c272520c9c8037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22a8cbf29b356e9635b64d24f0fa6bb') in 0.099130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_53.png
+  artifactKey: Guid(2ef6b80ef6382472a991bd78e7d6c5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_53.png using Guid(2ef6b80ef6382472a991bd78e7d6c5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1088a5c790624571c6ffd12527c791d3') in 0.089365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_59.png
+  artifactKey: Guid(95e23a33ab83d416090a8d02718992c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_59.png using Guid(95e23a33ab83d416090a8d02718992c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc58af5de4e5398ac101f3edbb1be3bf') in 0.087811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_58.png
+  artifactKey: Guid(2c14a3ab6e3c248dc8696e67ee0459c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_58.png using Guid(2c14a3ab6e3c248dc8696e67ee0459c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e89a5b8d7db45676585a9fd10867b1') in 0.076541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_69.png
+  artifactKey: Guid(7ec88f1511d1d432fb68109a9e9b39a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_69.png using Guid(7ec88f1511d1d432fb68109a9e9b39a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4d550f79a8a6bd3373a4f1359a9c55') in 0.096655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_76.png
+  artifactKey: Guid(59401d017b40a43ca933eb3d414f26f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_76.png using Guid(59401d017b40a43ca933eb3d414f26f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b55c14230c3465f33ea2941b6e2ac7e') in 0.088290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_24.png
+  artifactKey: Guid(b4cd131c783ee4f85b19ea5f36ecbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_24.png using Guid(b4cd131c783ee4f85b19ea5f36ecbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853e06abd0a84c258de2262f348fd5d7') in 0.092828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_34.png
+  artifactKey: Guid(9f838fa326e814e84bdecc1d33ac990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_34.png using Guid(9f838fa326e814e84bdecc1d33ac990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0674541e56f1657a00d76bae6511729') in 0.095115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_19.png
+  artifactKey: Guid(5107b814766b0432d8ba2c37ee4fcb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_19.png using Guid(5107b814766b0432d8ba2c37ee4fcb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e1eb76a9b6bf45a2bc115d7874adf1') in 0.086374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_67.png
+  artifactKey: Guid(5bd01e304d5254a32a1827c4e0dbe3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_67.png using Guid(5bd01e304d5254a32a1827c4e0dbe3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a33410e3fb60037583badb54766f39') in 0.091737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_61.png
+  artifactKey: Guid(e7ba74e77f690477f9e0916f23f7a932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_61.png using Guid(e7ba74e77f690477f9e0916f23f7a932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f981c1971c29b1b730aabac8af5465b9') in 0.083741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_16.png
+  artifactKey: Guid(325241f9e15b24ddebe3949ec49c6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_16.png using Guid(325241f9e15b24ddebe3949ec49c6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a040b88d4b4ba053778268a84f5a8c92') in 0.096625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_22.png
+  artifactKey: Guid(d83abc7298c3e4885b8528ec34cf9c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_22.png using Guid(d83abc7298c3e4885b8528ec34cf9c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3c56a37b25b7e7626f925ac92bde20') in 0.093033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_12.png
+  artifactKey: Guid(9454440e3dac6448c9b62f386dc6ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_12.png using Guid(9454440e3dac6448c9b62f386dc6ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be687bbf9f38aad5abb7a8d0a72925c') in 0.130160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_6.png
+  artifactKey: Guid(201c3c5d4c2fe407d99817e13371b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_6.png using Guid(201c3c5d4c2fe407d99817e13371b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ae6bf513f5e6e5624cb4b7b71edeb8') in 0.082721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_15.png
+  artifactKey: Guid(fc0401d7126db4d94a969486ecebfb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_15.png using Guid(fc0401d7126db4d94a969486ecebfb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8ae3d8eef454ded522ec94ee0a576c') in 0.078828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_11.png
+  artifactKey: Guid(28ad6bf5482f34a6182bce5f12dadf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_11.png using Guid(28ad6bf5482f34a6182bce5f12dadf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77881637b5406a01b95727670e38e0f') in 0.077218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_7.png
+  artifactKey: Guid(62ce012aa9d904a71b1a95352b4ab384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_7.png using Guid(62ce012aa9d904a71b1a95352b4ab384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5999a3097a6db86bda131febaad73561') in 0.109462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_3.png
+  artifactKey: Guid(8fe2ed130fc614c6b822c27449f03cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_3.png using Guid(8fe2ed130fc614c6b822c27449f03cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad513b8fc67682fa7c4a08321d27a4b') in 0.093609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_8.png
+  artifactKey: Guid(064d5cfb5f39c44c28450c1b0dab1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_8.png using Guid(064d5cfb5f39c44c28450c1b0dab1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd701052d4dc13b412f4196de9d332bda') in 0.100104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_47.png
+  artifactKey: Guid(955e2d59dd2de46ff9bcc965b0358753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_47.png using Guid(955e2d59dd2de46ff9bcc965b0358753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d131e5e50483d4618eeba2f62d548b7') in 0.096381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_1.png
+  artifactKey: Guid(fea14b9bb211c41b0942197951fc3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_1.png using Guid(fea14b9bb211c41b0942197951fc3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7c4627dd0ee5296faa8948c03fb473') in 0.088928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_38.png
+  artifactKey: Guid(649a21e5bccd94d66b6253a0ebb51886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_38.png using Guid(649a21e5bccd94d66b6253a0ebb51886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcb1ec12564f8f29227d73966e244a1') in 0.083259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_40.png
+  artifactKey: Guid(c9866dc17660b4f8e87bda7d4d471c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_40.png using Guid(c9866dc17660b4f8e87bda7d4d471c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a90a94a4094cf1f77e1883fd569725') in 0.088381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_66.png
+  artifactKey: Guid(d558111edfe1a40e88152488f3a45079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_66.png using Guid(d558111edfe1a40e88152488f3a45079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db18a0402e7f53203c0c57afac2dc205') in 0.088038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_33.png
+  artifactKey: Guid(1e16374fdf71f4bc78140dc23259c023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_33.png using Guid(1e16374fdf71f4bc78140dc23259c023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ae02c60aed2c035c23cccb4fbeb5ae') in 0.086375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_19.png
+  artifactKey: Guid(093faf21576714470bb0637224e46a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_19.png using Guid(093faf21576714470bb0637224e46a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195b82b4e3f7b573bc0f9f6102411460') in 0.130722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_57.png
+  artifactKey: Guid(f66977e4998634cd9be2c0e0518f5368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_57.png using Guid(f66977e4998634cd9be2c0e0518f5368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5ac4fdbeebe490c60f6e664a264298') in 0.093303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_23.png
+  artifactKey: Guid(039dd0e520ffe47028839b4c88651a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_23.png using Guid(039dd0e520ffe47028839b4c88651a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbfe7ff209240c6a967ce902f7912be') in 0.082817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_5.png
+  artifactKey: Guid(028b2903cbba84e49b6762aa77a13aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_5.png using Guid(028b2903cbba84e49b6762aa77a13aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b9bb0764a1c497c77577edfe52146c') in 0.089460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_13.png
+  artifactKey: Guid(9c03062e5a2014fc5bb650e654e2583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_13.png using Guid(9c03062e5a2014fc5bb650e654e2583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1230a2a8279494739d77343126b4c2b') in 0.080964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_12.png
+  artifactKey: Guid(6db8ef5891d6542a6a3c332fa604021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_12.png using Guid(6db8ef5891d6542a6a3c332fa604021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb82c917d29c655754fa141ce0e501c') in 0.093289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_6.png
+  artifactKey: Guid(dd2bab627f21b40a6bb76319bdea57d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_6.png using Guid(dd2bab627f21b40a6bb76319bdea57d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4192712580d14125e2307fa237a454') in 0.102648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_70.png
+  artifactKey: Guid(42fab07aea6ea4e75b252632b58f1101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_70.png using Guid(42fab07aea6ea4e75b252632b58f1101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9fa13099c7c184b6172e9dc4606608') in 0.104159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.051743 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_24.png
+  artifactKey: Guid(1d527d7a2748d4010bbfff7f6f6bf16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_24.png using Guid(1d527d7a2748d4010bbfff7f6f6bf16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4791ab37d488d6a2be1c68e70e0dc686') in 0.077421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_29.png
+  artifactKey: Guid(f0f66421a6b4e42848538f6a48bb5821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_29.png using Guid(f0f66421a6b4e42848538f6a48bb5821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9daad57ccd89a53c5ac6f2d9317650c') in 0.074532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_26.png
+  artifactKey: Guid(e05744681e7df4f24971c4715c154b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_26.png using Guid(e05744681e7df4f24971c4715c154b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fed7b56f88d84926be0f2f7ffb14eb') in 0.083499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_28.png
+  artifactKey: Guid(b7eb060aadef746beb9a9896cb45bbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_28.png using Guid(b7eb060aadef746beb9a9896cb45bbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0e2c78381f8a16beda6b2cd7bdf24d') in 0.082462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.604822 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_32.png
+  artifactKey: Guid(2a513d006cc5a4eb98be55347fbe261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_32.png using Guid(2a513d006cc5a4eb98be55347fbe261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4247cfd89b67cbb573c8c2fc3a476884') in 0.080853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_36.png
+  artifactKey: Guid(77a63803460b744b3bd5c2e698060c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_36.png using Guid(77a63803460b744b3bd5c2e698060c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0542d5844c7bfd08bc8aaa3f6fa0a2') in 0.088625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_39.png
+  artifactKey: Guid(419ffb8bf86da40ecbf6a884dd966c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_39.png using Guid(419ffb8bf86da40ecbf6a884dd966c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdc1dc088b03d3254c53b1844b38c6a') in 0.060622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_35.png
+  artifactKey: Guid(91358ea47ebe94d599d2a62b46dc0d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_35.png using Guid(91358ea47ebe94d599d2a62b46dc0d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677c2bcbaddefb3d4e8c3b93683cc1fe') in 0.083633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.208248 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_40.png
+  artifactKey: Guid(7c8b219fdec7b4f0e8d55d0e36a98c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_40.png using Guid(7c8b219fdec7b4f0e8d55d0e36a98c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325f2de0c25fadc449e4d9769baa2cd0') in 0.081994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_43.png
+  artifactKey: Guid(2a01b77fabacc4b0fa93ebb0be8bd998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_43.png using Guid(2a01b77fabacc4b0fa93ebb0be8bd998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e658b4bd53ca94c2876ee9bd1aa74cf5') in 0.092737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_42.png
+  artifactKey: Guid(53a8e85a8f6b041c6b39ec2cc4298169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_42.png using Guid(53a8e85a8f6b041c6b39ec2cc4298169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9bf986d32ce759b2f0f70c28f99187') in 0.064635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.515701 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_46.png
+  artifactKey: Guid(844d63af4322c40a3b4afd6524d77e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_46.png using Guid(844d63af4322c40a3b4afd6524d77e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aca88a505823e3472770f0e441b5d1e') in 0.061857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_50.png
+  artifactKey: Guid(3678c18361a7748ea908de46b9c1e7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_50.png using Guid(3678c18361a7748ea908de46b9c1e7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01952b07bf57c6b14a6990815d873128') in 0.055431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_48.png
+  artifactKey: Guid(1c1be277dd71a4aa28f44e543bb0bcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_48.png using Guid(1c1be277dd71a4aa28f44e543bb0bcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5228a45430ebafacabcc3067efc0aa79') in 0.060298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.095174 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_52.png
+  artifactKey: Guid(8c0170308aa8140afbbaaee8639d2ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_52.png using Guid(8c0170308aa8140afbbaaee8639d2ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f8a471cda6c6652bf63a3bf1b4e01f') in 0.080060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_55.png
+  artifactKey: Guid(8e488914272d747649c522d9ee8666ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_55.png using Guid(8e488914272d747649c522d9ee8666ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dc88119288d9bfafc97adc14f5342d') in 0.069631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.743758 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_56.png
+  artifactKey: Guid(a20fb0358acdd4d838c01b0b73fbfbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_56.png using Guid(a20fb0358acdd4d838c01b0b73fbfbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2b9a7091c75dde8153d88e4ec2bf7') in 0.082926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_60.png
+  artifactKey: Guid(824ea4146dbf54330b571ebbaaefbe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 1/character_60.png using Guid(824ea4146dbf54330b571ebbaaefbe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb933eb34840310996438012b1fdbac') in 0.099720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.361819 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_101.png
+  artifactKey: Guid(32620d0fdeb084eff8e231db36f115e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_101.png using Guid(32620d0fdeb084eff8e231db36f115e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2996d718855072f138ab56efc4dee69b') in 0.078352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_112.png
+  artifactKey: Guid(60564e6953c79434682cccf32292044f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_112.png using Guid(60564e6953c79434682cccf32292044f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108ca2b850265f85d149c9fcd42766dc') in 0.077214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_103.png
+  artifactKey: Guid(4c1dcaac712754b6b9bd34eb465a0c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_103.png using Guid(4c1dcaac712754b6b9bd34eb465a0c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f97ea26ff4de307928f8946a514261') in 0.082462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_104.png
+  artifactKey: Guid(f2a48d3928cf043be9d486a441f26c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_104.png using Guid(f2a48d3928cf043be9d486a441f26c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ca5a778ba509e5a53a51d138d191c0') in 0.087511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_106.png
+  artifactKey: Guid(c66b6c2df2a9d4467aa9ea426c5abaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_106.png using Guid(c66b6c2df2a9d4467aa9ea426c5abaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492aee74435893bc5b8482b97114684d') in 0.085964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_117.png
+  artifactKey: Guid(e52df0dcaec5a4178b16fa4603fa2177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_117.png using Guid(e52df0dcaec5a4178b16fa4603fa2177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f744008f1f9858fe748574d3f82386') in 0.109628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_110.png
+  artifactKey: Guid(32591e289b26b42129b3a5bd4e0f6351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_110.png using Guid(32591e289b26b42129b3a5bd4e0f6351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7a9f43ac764f45eed2226373668db0') in 0.091411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_108.png
+  artifactKey: Guid(c2cd999878dce4ba3a8b32f113c89eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_108.png using Guid(c2cd999878dce4ba3a8b32f113c89eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552c4d65a51f7ec7a74ec1be1c328fbe') in 0.092364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_105.png
+  artifactKey: Guid(ea3da549527c04205b6178034facb974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_105.png using Guid(ea3da549527c04205b6178034facb974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eacdc3c3b4c89eb95da739d73ac244') in 0.074007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.552670 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_100.png
+  artifactKey: Guid(41b226596f9004aa0a9355222516132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_100.png using Guid(41b226596f9004aa0a9355222516132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396d9bf4edd68527f7544d990fc3a49a') in 0.070394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.350534 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_96.png
+  artifactKey: Guid(0bc0215440177484cabefdc3eec9bc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_96.png using Guid(0bc0215440177484cabefdc3eec9bc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddd423c0fef17db1a4e68cde5d2d481') in 0.070873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.232359 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_94.png
+  artifactKey: Guid(ee81f787692a1471f96f22de784d4f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_94.png using Guid(ee81f787692a1471f96f22de784d4f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc93fa5b25c95d387302e9782b8bb27a') in 0.138895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.476214 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_92.png
+  artifactKey: Guid(22666a99647d7434b896e3aa13e99e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_92.png using Guid(22666a99647d7434b896e3aa13e99e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c3fcffa013b6b637f10603828dc584') in 0.095903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.938340 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_88.png
+  artifactKey: Guid(77b6ef76a32f0486e8b14ff973ad0a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_88.png using Guid(77b6ef76a32f0486e8b14ff973ad0a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07117bf4517bfc333132a83755b62da5') in 0.069100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.250352 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_86.png
+  artifactKey: Guid(0ebeba3af439147de92c51300310d981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_86.png using Guid(0ebeba3af439147de92c51300310d981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c3ded4aa894e7e10ad34b327e3cc4c') in 0.084630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.993754 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_146.png
+  artifactKey: Guid(ba81d5077867c42ad8b445cb3d2373c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_146.png using Guid(ba81d5077867c42ad8b445cb3d2373c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568d6944ac14310df3a7aae7d255fa32') in 0.083831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_157.png
+  artifactKey: Guid(d375dc5514d5d417f853cf84981d37cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_157.png using Guid(d375dc5514d5d417f853cf84981d37cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf259c63b7520fb0373ca2f43d351f8e') in 0.120643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_158.png
+  artifactKey: Guid(9c3d2d8f1a93149f7951346e65ae132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_158.png using Guid(9c3d2d8f1a93149f7951346e65ae132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98661729844208b1f2de23f35d1e27d3') in 0.084603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_152.png
+  artifactKey: Guid(be838647492034727887edd683447ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_152.png using Guid(be838647492034727887edd683447ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ead85094b3cde97c2cba51f63d49956') in 0.144839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_153.png
+  artifactKey: Guid(5b45440882fcd4991824f3801e72130b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_153.png using Guid(5b45440882fcd4991824f3801e72130b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9de53178250b613002429b907e864c') in 0.138234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_167.png
+  artifactKey: Guid(d4729e3dad53e436d880485ba72fd96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_167.png using Guid(d4729e3dad53e436d880485ba72fd96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4047fb9f8fc4eb2a3fec0248fc54b00') in 0.083708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_154.png
+  artifactKey: Guid(70aec959264574b4e8188f9d22324fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_154.png using Guid(70aec959264574b4e8188f9d22324fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8e2ec8a40427dfbb42909aa673a829') in 0.100113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_171.png
+  artifactKey: Guid(73b85fca058224dd89a8e1ae7c9d9493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_171.png using Guid(73b85fca058224dd89a8e1ae7c9d9493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb9ab04210ac399b43c789314b4408d') in 0.094508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_170.png
+  artifactKey: Guid(1df638ceb8df14cc3bfaf423eb42f5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_170.png using Guid(1df638ceb8df14cc3bfaf423eb42f5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b21c38a8f97f0f35399e4531e3a6f1') in 0.101726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102961 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_175.png
+  artifactKey: Guid(886bcbad636894e7eb30ec8443916311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_175.png using Guid(886bcbad636894e7eb30ec8443916311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b631864ea4def840fb0736fd5fefda') in 0.085813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.219586 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_179.png
+  artifactKey: Guid(1e2a57bf621dd4bbf9856fd7f9629c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_179.png using Guid(1e2a57bf621dd4bbf9856fd7f9629c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63673bd902a75b67d55a4fba1ad2d44') in 0.091705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.804232 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_222.png
+  artifactKey: Guid(1dbbb64c0865348bf8c395814640258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_222.png using Guid(1dbbb64c0865348bf8c395814640258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93d7e01f3ba28460abe691350eab402') in 0.084536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_230.png
+  artifactKey: Guid(52bfe79da4cf44f63939698c043319c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_230.png using Guid(52bfe79da4cf44f63939698c043319c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6711829a9885dc17e405f17bc592dc') in 0.095083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_227.png
+  artifactKey: Guid(6f98691bb7cd44ab589b4088a6f701fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_227.png using Guid(6f98691bb7cd44ab589b4088a6f701fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f5ce6928483c3b2e0f0d5a1d91658f') in 0.092407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_231.png
+  artifactKey: Guid(60074cc448fd34e8b935f5883db2ff36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_231.png using Guid(60074cc448fd34e8b935f5883db2ff36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013422a4166ea4234b4d92603e1e25ca') in 0.078538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_239.png
+  artifactKey: Guid(8d235cab0bae24fcfb6c013cd064957b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_239.png using Guid(8d235cab0bae24fcfb6c013cd064957b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b8a4b6d40bdf153d742ae6f0aa246d') in 0.093057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_224.png
+  artifactKey: Guid(3fd61f4464acd4d3bb3f587bc1e149cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_224.png using Guid(3fd61f4464acd4d3bb3f587bc1e149cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b78f162671286f99aa6172daeecafb') in 0.088392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_234.png
+  artifactKey: Guid(974ace60400a04ad9866119431136750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_234.png using Guid(974ace60400a04ad9866119431136750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e85879ec0beff452a544caa84db1375') in 0.093263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.348040 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_220.png
+  artifactKey: Guid(2f1c599666e454da38c5398eb1442200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_220.png using Guid(2f1c599666e454da38c5398eb1442200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf88f7c6f132910fc690a6e09fa6a50') in 0.078702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.287212 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_216.png
+  artifactKey: Guid(5d04fb2a075b540978c163c50bad8d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_216.png using Guid(5d04fb2a075b540978c163c50bad8d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d0b7cd968c70d9ee51492339199554') in 0.075204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_214.png
+  artifactKey: Guid(b3424ea5f22c340ae87e5b36f387e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_214.png using Guid(b3424ea5f22c340ae87e5b36f387e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2338d796ad28610296f3cc1a48ef650') in 0.077895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261655 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_212.png
+  artifactKey: Guid(cc3bde239e17c44679dff88e6de5be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_212.png using Guid(cc3bde239e17c44679dff88e6de5be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc93685705ee57d01880208761110190') in 0.076019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_210.png
+  artifactKey: Guid(57ac63645ba184cb9939a4464cc212ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_210.png using Guid(57ac63645ba184cb9939a4464cc212ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf5ddd15484d51cf81a80e4ca8426ac') in 0.075356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.263372 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_208.png
+  artifactKey: Guid(b27c5862df41d425ebf4678ad8073019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_208.png using Guid(b27c5862df41d425ebf4678ad8073019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003d9ebfca8cd5e785d14700e2308ed5') in 0.081970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_206.png
+  artifactKey: Guid(85e2a85404bc344708397f4994bc5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_206.png using Guid(85e2a85404bc344708397f4994bc5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25f00eedfa08aea916d5e7cf58f0a72') in 0.075659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.849569 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_204.png
+  artifactKey: Guid(483d38af42d01417b81a42795210d514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_204.png using Guid(483d38af42d01417b81a42795210d514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c9dcdd5a71b1a4002b8cdecb80c4c1') in 0.081664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.466383 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_200.png
+  artifactKey: Guid(0f169dc3c5b8845d39ee6819f3c7db38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_200.png using Guid(0f169dc3c5b8845d39ee6819f3c7db38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfda6dbbc4e76bc6825cc930c57e1625') in 0.062704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014193 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_197.png
+  artifactKey: Guid(608f40ed5182345cfb1b9fb7f44c3268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_197.png using Guid(608f40ed5182345cfb1b9fb7f44c3268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8bf9359cabb17f8768b9aceb5e82d9') in 0.073084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305921 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_196.png
+  artifactKey: Guid(b52d66f2a34764ba399be3018769d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_196.png using Guid(b52d66f2a34764ba399be3018769d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda2035cd55f6569de07451df7294c76') in 0.076364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.688710 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_192.png
+  artifactKey: Guid(af8aae56b8cb0400892be42cc6937f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_192.png using Guid(af8aae56b8cb0400892be42cc6937f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505a2c59b6c018d220391dc967322aaa') in 0.096273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.283400 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_188.png
+  artifactKey: Guid(c9615423b048e4fc0b3bca0334948cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_188.png using Guid(c9615423b048e4fc0b3bca0334948cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2353e8a224a275db2baba953ecaecc8e') in 0.094762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.621527 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_84.png
+  artifactKey: Guid(34dce90d4509d45bb86fa4256a62aa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_84.png using Guid(34dce90d4509d45bb86fa4256a62aa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b217e40063c57bf046f6c1f6464d975') in 0.081998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.245425 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_82.png
+  artifactKey: Guid(a254137cfe80c46b197bd41199e0ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_82.png using Guid(a254137cfe80c46b197bd41199e0ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954eaeb435560e558f57626bda89ecbe') in 0.063034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_79.png
+  artifactKey: Guid(ee06ade31b7df4d6297f6d3f6fbc63db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_79.png using Guid(ee06ade31b7df4d6297f6d3f6fbc63db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d37a6e528628beda9324be4daf85239') in 0.111834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.723813 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_78.png
+  artifactKey: Guid(f1096ad9fc99841e08c8e4cc47ab8de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_78.png using Guid(f1096ad9fc99841e08c8e4cc47ab8de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca191701d63d881d098e83c5a0a4f14') in 0.091010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_76.png
+  artifactKey: Guid(636a82de7eca7408991b09624672993e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_76.png using Guid(636a82de7eca7408991b09624672993e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e56c32dfe35644c867c33021517d02') in 0.082643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.774470 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_74.png
+  artifactKey: Guid(9e207fdf9d1ea46659f568df417197f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_74.png using Guid(9e207fdf9d1ea46659f568df417197f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e7e41dc7b85aed84724d25bae4277c') in 0.078581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_71.png
+  artifactKey: Guid(f6d41f52669294964a21bec502c37d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_71.png using Guid(f6d41f52669294964a21bec502c37d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11b29943889e94dbafef77f8a160d88') in 0.092191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.202746 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_70.png
+  artifactKey: Guid(791efceab92ec448bb8944aa416ec0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_70.png using Guid(791efceab92ec448bb8944aa416ec0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ace0fde2647edcfade735e45f6def7') in 0.085284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_67.png
+  artifactKey: Guid(1718c6088a45648afb7d8e30976046d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_67.png using Guid(1718c6088a45648afb7d8e30976046d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66e8c3d4beb53607dea985c4b0b6a79') in 0.099588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201973 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_66.png
+  artifactKey: Guid(bf8eea97505c64f479b57a2fed4bf4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_66.png using Guid(bf8eea97505c64f479b57a2fed4bf4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c0fa54a5f00aace1db69db5cd4e3cd') in 0.082720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_63.png
+  artifactKey: Guid(a003498e2fc0e45e3b393f87e839e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_63.png using Guid(a003498e2fc0e45e3b393f87e839e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8ddba745abfc1d08f01c4c8cf33ed6') in 0.069508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212130 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_62.png
+  artifactKey: Guid(4a1cfb6d52ede47c984f1a5976cd1b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 2/character_62.png using Guid(4a1cfb6d52ede47c984f1a5976cd1b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662f1b78e8cfc60a54683be27e701a4f') in 0.083191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.383744 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_144.png
+  artifactKey: Guid(272edb63889b24c1698a171e4d8ddbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_144.png using Guid(272edb63889b24c1698a171e4d8ddbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2353bd7cb83862982208a7a6aaa2f6') in 0.089789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_142.png
+  artifactKey: Guid(4f49c56892dc4408b97ebf3a66b35904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_142.png using Guid(4f49c56892dc4408b97ebf3a66b35904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdab9d4040177c1929fee490a3959a58') in 0.069819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395859 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_140.png
+  artifactKey: Guid(60b717207d30b4d938fc4b1dd583fbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_140.png using Guid(60b717207d30b4d938fc4b1dd583fbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e78dea06bd728a875703dc1935e69b') in 0.085345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009850 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_138.png
+  artifactKey: Guid(4bcb9e91eaf864b9abfc1501d5a5ff83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_138.png using Guid(4bcb9e91eaf864b9abfc1501d5a5ff83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dc3e4b09d67c5ef34b2af6e971c4c4') in 0.075453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.353738 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_136.png
+  artifactKey: Guid(57cff638ac1294f16a14dd6ab856d0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_136.png using Guid(57cff638ac1294f16a14dd6ab856d0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6a4b5023c5a070dbc8bc3f4cd247ee') in 0.080852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_133.png
+  artifactKey: Guid(ed6663653d7b34e099990776a2ad4d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_133.png using Guid(ed6663653d7b34e099990776a2ad4d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdab162632dbcc770834d50c3aab368') in 0.072953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.227172 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_132.png
+  artifactKey: Guid(19148a3b2230a4cfd95c16050b0aa83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_132.png using Guid(19148a3b2230a4cfd95c16050b0aa83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4a3e55933606b97b5ca18de50b025a') in 0.079434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.276264 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_130.png
+  artifactKey: Guid(e8b427ba2887b46f8bd28daf465209bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_130.png using Guid(e8b427ba2887b46f8bd28daf465209bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd18263f2f5038840ece3d7055dfa3c6') in 0.084798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_127.png
+  artifactKey: Guid(30f6f6a774bad47168fba6547008c057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_127.png using Guid(30f6f6a774bad47168fba6547008c057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592d1be331c8e8912a1e5d1b10fc17e7') in 0.095325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.295011 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_126.png
+  artifactKey: Guid(d6a4d35ebac004820a947dd7b1c4b3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_126.png using Guid(d6a4d35ebac004820a947dd7b1c4b3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b694d551cd8fe098ff14ee8b61788cfb') in 0.076841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.106518 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_124.png
+  artifactKey: Guid(e7b9b9c8573ba41c9b29ee10e5920351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_124.png using Guid(e7b9b9c8573ba41c9b29ee10e5920351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3873e5c3563873ef7be1014b20a3e8a') in 0.081936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_122.png
+  artifactKey: Guid(2f7ae2479ec094356be3565be917edef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_122.png using Guid(2f7ae2479ec094356be3565be917edef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea5559370a6d74f674c9f5dae927fd1') in 0.085218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7762.745564 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_42.png
+  artifactKey: Guid(379685b68119041dbad11a815c27da24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_42.png using Guid(379685b68119041dbad11a815c27da24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8918d293b0ca29c6db0fa4dca96f79e9') in 0.125368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_56.png
+  artifactKey: Guid(396a6ee25c0914c068dda24507e1fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_56.png using Guid(396a6ee25c0914c068dda24507e1fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51e923d7dc14734ab3d5de6f9af4854') in 0.093102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_50.png
+  artifactKey: Guid(7f421832066714475a6c872c9b8f9b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_50.png using Guid(7f421832066714475a6c872c9b8f9b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94df06a0ee69f817dc73e40a649e1e53') in 0.072326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_54.png
+  artifactKey: Guid(0a3684451ff4843a39196bd20eba3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_54.png using Guid(0a3684451ff4843a39196bd20eba3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a633837b0146937485322213bffd30d7') in 0.087537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_43.png
+  artifactKey: Guid(e88b2aa77976e4d7cad984b365a618ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_43.png using Guid(e88b2aa77976e4d7cad984b365a618ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebb4e55f12ebabafbf396f1a41cb5e4') in 0.090159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_51.png
+  artifactKey: Guid(4b99307e7523d454e9e646ceeb7054ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_51.png using Guid(4b99307e7523d454e9e646ceeb7054ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e24e02166f7a5d015b73f242ff4b9c') in 0.070805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_53.png
+  artifactKey: Guid(36fd2ce126a3142d69e91b5b59c002ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_53.png using Guid(36fd2ce126a3142d69e91b5b59c002ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c202c6008be59018e9d2c289a7761c59') in 0.078014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_45.png
+  artifactKey: Guid(e10e9d6af2d594a01aef173973fbe428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_45.png using Guid(e10e9d6af2d594a01aef173973fbe428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff3a6e054fa506e81f77d056f496855') in 0.095466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_61.png
+  artifactKey: Guid(532dc385473ba44e2bcfbf6591d49479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_61.png using Guid(532dc385473ba44e2bcfbf6591d49479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd7236b1605b18e296bebf4c60a0f42') in 0.088462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_47.png
+  artifactKey: Guid(c6ef134d058894f198dddad3a884bc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_47.png using Guid(c6ef134d058894f198dddad3a884bc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76789f0fed3fdd5286e18e6ca91f5e65') in 0.077055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_57.png
+  artifactKey: Guid(0a7887231af5948fbb716c2823eaa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_57.png using Guid(0a7887231af5948fbb716c2823eaa0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66954e0badcd913f66a51f3227b207e5') in 0.096951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.826989 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_105.png
+  artifactKey: Guid(3f9a50a106e0147cf9f51a9221d50928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_105.png using Guid(3f9a50a106e0147cf9f51a9221d50928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9eb032a726249d69828fcc9a1cda28') in 0.075323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_112.png
+  artifactKey: Guid(cbc050dbd4eda4370981bc5ca7891278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_112.png using Guid(cbc050dbd4eda4370981bc5ca7891278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0ac5d9008a8e78c30fec0e8f4dadf5') in 0.111451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_118.png
+  artifactKey: Guid(62e018237f71948cd87ce6fe4d633c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_118.png using Guid(62e018237f71948cd87ce6fe4d633c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fad13ccb6e1ea1bbd616019ef6c629f') in 0.102005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_108.png
+  artifactKey: Guid(6f84b5321df95444cbe792e917068477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_108.png using Guid(6f84b5321df95444cbe792e917068477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59aab5ad4d8a87223adb4dd12d6e3a00') in 0.091610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_111.png
+  artifactKey: Guid(e9d717b3a9bd14cb0b66367e0c94be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_111.png using Guid(e9d717b3a9bd14cb0b66367e0c94be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706bed5b957da16de5843aa342cef280') in 0.082668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_110.png
+  artifactKey: Guid(00f5b0db6b85d48faa8ac8d8f9aa5aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_110.png using Guid(00f5b0db6b85d48faa8ac8d8f9aa5aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d813d8583bb3beb2f4d13028b50dd28') in 0.089117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_107.png
+  artifactKey: Guid(431118302d2f0482988c4ac017d8d48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_107.png using Guid(431118302d2f0482988c4ac017d8d48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8621e38bc98272014fe97af2d39c4d1') in 0.089196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_115.png
+  artifactKey: Guid(2c0f4d6467ea04f00847af63f2de725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_115.png using Guid(2c0f4d6467ea04f00847af63f2de725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43db5c47d234b7d7335e691ad4e0ef22') in 0.091306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_116.png
+  artifactKey: Guid(3b101468127434b958c3057e8189ccfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_116.png using Guid(3b101468127434b958c3057e8189ccfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eccde579328b052b01a1006e18f7b72') in 0.109707 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

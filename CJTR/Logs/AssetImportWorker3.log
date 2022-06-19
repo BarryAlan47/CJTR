@@ -15,7 +15,7 @@ C:/Git_Project/CJTR/CJTR
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53972
+50509
 Successfully changed project path to: C:/Git_Project/CJTR/CJTR
 C:/Git_Project/CJTR/CJTR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ C:/Git_Project/CJTR/CJTR
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 152.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 155.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1c1 (0cb3bd085a01)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,39 +64,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006190 seconds.
+Registered in 0.005026 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 143.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 146.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.843 seconds
+- Completed reload, in  0.637 seconds
 Domain Reload Profiling:
-	ReloadAssembly (844ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (637ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (464ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (474ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (305ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
+				InitializePlatformSupportModulesInManaged (47ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (144ms)
+				RefreshPlugins (147ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadAttributes (83ms)
 				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -104,39 +104,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012430 seconds.
+Registered in 0.019047 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Git_Project\CJTR\CJTR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Git_Project\CJTR\CJTR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
+- Completed reload, in  2.127 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1274ms)
-		BeginReloadAssembly (202ms)
+	ReloadAssembly (2127ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		EndReloadAssembly (955ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (1819ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (522ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1409ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (396ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (1182ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -145,12 +145,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4172 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 4659.
-Memory consumption went from 224.0 MB to 222.6 MB.
-Total: 3.215700 ms (FindLiveObjects: 0.380600 ms CreateObjectMapping: 0.105300 ms MarkObjects: 2.390500 ms  DeleteObjects: 0.338600 ms)
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.3 MB). Loaded Objects now: 4727.
+Memory consumption went from 226.8 MB to 225.5 MB.
+Total: 21.007200 ms (FindLiveObjects: 0.389300 ms CreateObjectMapping: 0.112600 ms MarkObjects: 20.116000 ms  DeleteObjects: 0.387400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,63 +162,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 39799.749959 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_circle_02.png
-  artifactKey: Guid(b2b2b5de96fed40d2898dd15c17892e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_circle_02.png using Guid(b2b2b5de96fed40d2898dd15c17892e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0842f6ad08b9a99ad487239f18b005e2') in 0.099104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_purple.png
-  artifactKey: Guid(8c291789626564f05ab21623737d19dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_purple.png using Guid(8c291789626564f05ab21623737d19dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a96357eb22b981461dc1a5559962201') in 0.023223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_darkgray.png
-  artifactKey: Guid(19a745caa897a41759d4b8b5d0b482f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_darkgray.png using Guid(19a745caa897a41759d4b8b5d0b482f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11af783143c999db5f29a73ffac5d855') in 0.022146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_green.png
-  artifactKey: Guid(6a63ef398306547be8cad5f83b8994a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_green.png using Guid(6a63ef398306547be8cad5f83b8994a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a972377a6a2237ea56a5ccf6a44ac4') in 0.020112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_d.png
-  artifactKey: Guid(dbaf2f34e4d01479caf7ac1069de1193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_d.png using Guid(dbaf2f34e4d01479caf7ac1069de1193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a1acb9c99b465ec6af34d9c645dfa4') in 0.019061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_03.png
-  artifactKey: Guid(7fc1f566adfca485f90894d0655b431b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_03.png using Guid(7fc1f566adfca485f90894d0655b431b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fbf3d8ba0851c7c44dfa5140f5edaf') in 0.025309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_sqeure_01.png
-  artifactKey: Guid(7c9169de7543a47c7a1a49f13864a321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_sqeure_01.png using Guid(7c9169de7543a47c7a1a49f13864a321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7012d890fc9cd5cffc9d740e894334e6') in 0.020445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_02.png
-  artifactKey: Guid(ca51e3dcb41444a068afc7f32c9d0214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_02.png using Guid(ca51e3dcb41444a068afc7f32c9d0214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4b2155d784c680717cb149446399c2') in 0.021439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.399521 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_circle_01_purple.png
-  artifactKey: Guid(c45f4e805a75b4de4a1c5bf3471587dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_circle_01_purple.png using Guid(c45f4e805a75b4de4a1c5bf3471587dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81df02d51b64f3dc17c06770e393f7cd') in 0.031865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_circle_01_blue.png
-  artifactKey: Guid(a37ec89f5ca17463ea97a831015fd5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_circle_01_blue.png using Guid(a37ec89f5ca17463ea97a831015fd5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3f80bf3eda4a1a9ac530dc3647d729') in 0.021521 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

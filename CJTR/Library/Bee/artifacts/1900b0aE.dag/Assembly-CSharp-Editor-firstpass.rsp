@@ -118,6 +118,8 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_VISUAL_SCRIPTING
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:ODIN_INSPECTOR
+-define:ODIN_INSPECTOR_3
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Behavior Designer/Editor/BehaviorDesigner.Editor.dll"
@@ -128,6 +130,12 @@
 -r:"Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 -r:"Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
 -r:"Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll"
+-r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll"
 -r:"C:/Git_Project/CJTR/CJTR/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"C:/Git_Project/CJTR/CJTR/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"C:/Git_Project/CJTR/CJTR/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
@@ -426,6 +434,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Serialization.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Sirenix.OdinInspector.CompatibilityLayer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Sirenix.OdinInspector.CompatibilityLayer.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
