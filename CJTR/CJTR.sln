@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Editor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{a708dc95-4b35-c89d-5bc6-98e1048660b2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{f23c7ce0-2f24-5964-effd-eac2cf334bb2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{e7a21325-b36d-9719-1597-45dff0dc9245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{f23c7ce0-2f24-5964-effd-eac2cf334bb2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +34,10 @@ Global
 		{15fb0df4-f2bf-8c2e-6d4e-0bba2f11df69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a708dc95-4b35-c89d-5bc6-98e1048660b2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a708dc95-4b35-c89d-5bc6-98e1048660b2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{f23c7ce0-2f24-5964-effd-eac2cf334bb2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{f23c7ce0-2f24-5964-effd-eac2cf334bb2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e7a21325-b36d-9719-1597-45dff0dc9245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e7a21325-b36d-9719-1597-45dff0dc9245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f23c7ce0-2f24-5964-effd-eac2cf334bb2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f23c7ce0-2f24-5964-effd-eac2cf334bb2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
