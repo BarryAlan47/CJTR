@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerWeaponInitPoint
   - EnemyWeaponInitPoint
+  - Joystick
   layers:
   - Default
   - TransparentFX

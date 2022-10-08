@@ -475,6 +475,10 @@
 "Assets/Behavior Designer/Editor/Object Drawers/IntSliderDrawer.cs"
 "Assets/Behavior Designer/Editor/Object Drawers/StackedActionDrawer.cs"
 "Assets/Behavior Designer/Editor/Object Drawers/StackedConditionalDrawer.cs"
+"Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs"
+"Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs"
+"Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs"
+"Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs"
 "Assets/SineVFX/TopDownEffects/Resources/Scripts/Editor/CustomRampGeneratorEditor.cs"
 -langversion:9.0
 

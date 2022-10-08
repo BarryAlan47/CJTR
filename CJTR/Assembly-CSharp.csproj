@@ -80,6 +80,7 @@
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\IntComparison.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\UseGravity.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Conditionals\HasReceivedEvent.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\IsStopped.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Input\IsKeyUp.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector2\SetValue.cs" />
@@ -88,6 +89,7 @@
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\BoolFlip.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetScheduledStartTime.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\FloatComparison.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetPitch.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\GetAngleToTarget.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetMaxDistance.cs" />
@@ -266,6 +268,7 @@
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\Stop.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\SetAngularVelocity.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\LayerMask\SetLayer.cs" />
+     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Conditionals\StackedConditional.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\LerpAngle.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\CharacterController\SetSlopeLimit.cs" />
@@ -316,6 +319,7 @@
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\SetSharedString.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\SetSharedRect.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedGameObjectList.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\GameObject\Instantiate.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Quaternion\Euler.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Decorators\Interrupt.cs" />
@@ -326,6 +330,7 @@
      <Compile Include="Assets\GUI PRO Kit - Fantasy RPG\Scripts\PanelControlFantasyRPG.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Timeline\Resume.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\NavMeshAgent\SetAcceleration.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\Operator.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\PlayerPrefs\Save.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetTime.cs" />
@@ -417,6 +422,7 @@
      <Compile Include="Assets\Resources\Script_Old\SkillIconMove.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\SharedTransformToGameObject.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\SetValue.cs" />
+     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Quaternion\Identity.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedBehaviour.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Light\SetRange.cs" />
@@ -491,6 +497,7 @@
      <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedVector2.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\String\Replace.cs" />
      <Compile Include="Assets\SineVFX\TopDownEffects\Resources\Scripts\PrefabSpawner.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\GetSpread.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\BoxCollider\GetCenter.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\IsPlaying.cs" />
@@ -587,6 +594,7 @@
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\LookAt.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector2\ClampMagnitude.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\NavMeshAgent\IsStopped.cs" />
+     <Compile Include="Assets\Resources\Script\AnimationEvent.cs" />
      <None Include="Assets\SineVFX\PostProcessingV2\Shaders\StdLib.hlsl" />
      <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Waveform.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

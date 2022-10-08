@@ -36,13 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
      <Compile Include="Assets\SineVFX\TopDownEffects\Resources\Scripts\Editor\CustomRampGeneratorEditor.cs" />
      <Compile Include="Assets\Behavior Designer\Editor\BehaviorTreeInspector.cs" />
      <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\StackedActionDrawer.cs" />
      <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\FloatSliderDrawer.cs" />
      <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\StackedConditionalDrawer.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
      <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\IntSliderDrawer.cs" />
      <Compile Include="Assets\Behavior Designer\Editor\ExternalBehaviorTreeInspector.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
      <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Editor\CurveGrid.shader" />
      <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Editor\Trackball.shader" />
      <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Editor\ConvertToLog.shader" />
